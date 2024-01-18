@@ -413,7 +413,7 @@ span {
    position: absolute;
    width: .6rem;
    height: 100%;
-   background: var(--main-color);
+   background: #0ef;
    top: 0;
    left: 50%;
    margin-left: -3px;
