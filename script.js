@@ -58,3 +58,16 @@ ScrollReveal().reveal('.home-content, .heading', { origin: 'top'});
 ScrollReveal().reveal('.home-img, .about-content, .education-container1, .education-container, .projects-box, .contact form', { origin: 'bottom'});
 ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left'});
 ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right'});
+
+/*======= Show Popups =======*/
+const showPopup = document.querySelector('.show-popup');
+const popupContainer = document.querySelector('.show-popup-container');
+const closeButton = document.querySelector('.close-button');
+
+showPopup.onclick = () => {
+  popupContainer.classList.add('active');
+}
+
+closeButton .onclick = () => {
+  popupContainer.classList.remove ('active');
+}
