@@ -54,8 +54,8 @@ ScrollReveal({
   delay: 100
 });
 
-ScrollReveal().reveal('.home-content, .heading', { origin: 'top'});
-ScrollReveal().reveal('.home-img, .about-content, .education-container1, .education-container, .projects-box, .contact form', { origin: 'bottom'});
+ScrollReveal().reveal('.home-content,.timeline, .heading', { origin: 'top'});
+ScrollReveal().reveal('.home-img, .about-content, .education-container1, .education-container, .projects-box, .contact form, .skills-type', { origin: 'bottom'});
 ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left'});
 ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right'});
 
