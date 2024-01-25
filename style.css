@@ -464,7 +464,9 @@ span {
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 5px;
+    gap: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
     /* padding: 1rem 60px; */
     font-size: 1.2rem;
     /* color: black; */
