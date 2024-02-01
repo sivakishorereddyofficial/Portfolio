@@ -252,6 +252,7 @@ span {
 
 .about-img img {
     width: 30vw;
+    border-radius: 40%;
 }
 
 .about-links a {
