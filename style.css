@@ -611,7 +611,7 @@ span {
     text-align: center;
     padding: 0 4rem;
     transform: translateY(100%);
-    transition: 1s ease; /* Slide up transition to get project link */
+    transition: .5s ease; /* Slide up transition to get project link */
 }
 
 .projects-box:hover .projects-layer {
@@ -638,7 +638,7 @@ span {
 }
 
 .projects-layer a i {
-    font-size: 2rem;
+    font-size: 2.6rem;
     color: var(--second-bg-color);
 }
 
